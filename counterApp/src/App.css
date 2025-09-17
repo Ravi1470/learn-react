@@ -1,9 +1,46 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
-.inc{
-  
+
+body {
+  background-color: rgb(28, 28, 28);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  background-color: #4168e7;
+  cursor: pointer;
+  color: antiquewhite;
+  border: none;
+  border-radius: 7px;
+}
+
+.main {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.btncontainer {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button:hover {
+  background-color: #527aff;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
 }
